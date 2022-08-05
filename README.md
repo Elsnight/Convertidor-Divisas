@@ -5,7 +5,7 @@ Implementar un convertidor de divisas, de al menos 5 tipos de monedas usando Xam
 
 Enlace al sitio oficial web: [Descarga][]
 
-  [Descarga]: https://drive.google.com/file/d/1EbnDJgkRpU7QJfi16GfJpeCvoZd-frRv/view?usp=sharing
+  [Descarga]: https://drive.google.com/drive/folders/1VJMQ6PqOU_VvSXop4EUE7YoM50eY9RGv?usp=sharing
 
 Enlace al sitio oficial web: [Xamarin Forms][]
 
