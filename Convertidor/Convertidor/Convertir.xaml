@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Convertidor.Convertir">
+    <Grid BackgroundColor="LimeGreen">
+        
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,0"
+                             EndPoint="1,0">
+                <GradientStop Color="#5ee7df"
+                          Offset="0.1"/>
+                <GradientStop Color="#b490ca"
+                          Offset="1.0"/>
+            </LinearGradientBrush>
+        </Grid.Background>            
+
+        <StackLayout VerticalOptions="Center" Margin="20,5,20,20" Spacing="5">
+            <Image Source="https://i.ibb.co/8KhNKj1/3a1a6e1bd2cbdff4b531c3adeadf5cd6-preview-rev-1.png" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Aspect="Fill"/>
+
+            <Frame HasShadow="False" CornerRadius="5">
+
+                <Entry Keyboard="Numeric" 
+                       Placeholder="Valor dolares"
+                       TextColor="Black"
+                       PlaceholderColor="Black"
+                       FontSize="Micro"
+                       x:Name="PesosEntry"
+/>
+            </Frame>
+            
+            
+            
+            <Button Text="Calcular"
+                    CornerRadius="10"
+                    FontSize="Micro"
+                    FontAttributes="Bold" 
+                    TextTransform="None"
+                    BackgroundColor="#b490ca"
+                    BorderRadius="10"
+                    BorderWidth="2"
+                    BorderColor="#5ee7df"   
+                    x:Name="btnCalcular"
+                    Clicked="BtnCalcular_Clicked"
+                    />
+            <Button 
+                    x:Name="LimpiarButton"
+                    Text="Limpiar"
+                    CornerRadius="10"
+                    FontSize="Micro"
+                    FontAttributes="Bold" 
+                    TextTransform="None"
+                    BackgroundColor="#5ee7df"
+                    BorderRadius="10"
+                    BorderWidth="2"
+                    BorderColor= "#b490ca"  
+                    Clicked="LimpiarButton_Clicked" />
+
+
+
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Moneda:"
+                       FontSize="Micro"
+                       FontAttributes="Bold"
+                       VerticalOptions="Center"/>
+                <Label Text="0.0"
+                       FontSize="Micro"
+                       FontAttributes="Bold"
+                       VerticalOptions="Center"
+                       x:Name="reslbl1"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Moneda:"
+                       FontSize="Micro"
+                       FontAttributes="Bold"
+                       VerticalOptions="Center"/>
+                <Label Text="0.0"
+                       FontSize="Micro"
+                       FontAttributes="Bold"
+                       VerticalOptions="Center"
+                       x:Name="reslbl2"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Moneda:"
+                       FontSize="Micro"
+                       FontAttributes="Bold"
+                       VerticalOptions="Center"/>
+                <Label Text="0.0"
+                       FontSize="Micro"
+                       FontAttributes="Bold"
+                       VerticalOptions="Center"
+                       x:Name="reslbl3"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Moneda:"
+                       FontSize="Micro"
+                       FontAttributes="Bold"
+                       VerticalOptions="Center"/>
+                <Label Text="0.0"
+                       FontSize="Micro"
+                       FontAttributes="Bold"
+                       VerticalOptions="Center"
+                       x:Name="reslbl4"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal"                     Margin="0"
+>
+                <Label Text="Moneda:"
+                       FontSize="Micro"
+                       FontAttributes="Bold"
+                       VerticalOptions="Center"/>
+                <Label Text="0.0"
+                       FontSize="Micro"
+                       FontAttributes="Bold"
+                       VerticalOptions="Center"
+                       x:Name="reslbl5"/>
+            </StackLayout>
+            <Button Text="Regresar" 
+                    Margin="0"
+                    BackgroundColor="White"
+                    HorizontalOptions="Center"
+                    x:Name="btnVolver"
+                    Clicked="btnVolver_Clicked"
+                    CornerRadius="10"
+                    FontSize="Micro"
+                    FontAttributes="Bold" 
+                    TextTransform="None"
+                    BorderRadius="10"
+                    BorderWidth="2"
+                    BorderColor= "#b490ca"  
+                />
+
+
+        </StackLayout>
+    </Grid>
+</ContentPage>

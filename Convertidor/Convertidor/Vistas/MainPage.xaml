@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Convertidor.MainPage"
+             NavigationPage.HasNavigationBar="False">
+    <StackLayout Orientation="Vertical">
+        <StackLayout.Background>
+            <LinearGradientBrush StartPoint="0,0"
+                             EndPoint="1,0">
+                <GradientStop Color="#5ee7df"
+                          Offset="0.1"/>
+                <GradientStop Color="#b490ca"
+                          Offset="1.0"/>
+            </LinearGradientBrush>
+        </StackLayout.Background>
+        <Label Text="Convertidor Divisas" 
+               FontSize="20"
+               FontAttributes="Bold"
+               Margin="0,20,0,0"
+               HorizontalOptions="CenterAndExpand"/>
+        <Frame VerticalOptions="FillAndExpand"
+               Margin="10,10,10,10"
+               CornerRadius="20"
+               HasShadow="False">
+            <StackLayout VerticalOptions="Center" Spacing="15">
+                <Image Source="https://i.pinimg.com/originals/3a/1a/6e/3a1a6e1bd2cbdff4b531c3adeadf5cd6.png" Aspect="AspectFill"/>
+                <Label Text="Hola bienvenido a nuestra plataforma."
+                       FontSize="15"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"
+                       HorizontalTextAlignment="Center"
+                       VerticalTextAlignment="Center"/>
+                
+                <Button Text="Empezar"
+                        BackgroundColor="#b490ca"
+                         BorderRadius="10"
+                        BorderWidth="2"
+                        BorderColor="#5ee7df"
+                        CornerRadius="10" Clicked="Button_Empezar_Clicked"
+                        Margin="30"
+                        />
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+
+</ContentPage>
