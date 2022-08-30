@@ -1,6 +1,9 @@
 # Convertidor Divisas  
+ 
  - MIGUEL CUENCA
  - LUIS CATOTA
+
+
 Implementar un convertidor de divisas, de al menos 5 tipos de monedas usando Xamarin forms y Visual estudio
 
 
